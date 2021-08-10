@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            //Pay attention to change to your own MinGW directory
+            "command": "D:\\GameEngine\\build.bat",
+            "args":[],
+            "options": {
+                //Pay attention to change to your own MinGW directory
+                "cwd": "D:\\MinGWx86\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
